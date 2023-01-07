@@ -47,7 +47,7 @@
                     {% else %}
                         <td><span class="badge badge-success">완료</span></td>
                     {% endif %}
-                    <td><a href="/complete/{{ todo.id }}" class="btn btn-info">상태변경</a></td>
+                    <td><a href="/change_state/{{ todo.id }}" class="btn btn-info">상태변경</a></td>
                     <td><a href="/delete/{{ todo.id }}" class="btn btn-danger">삭제</a></td>
                 </tr>
             {% endfor %}
